@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Vídeo com HTML5</title>
+</head>
+
+<body>
+   <h1>Inserindo vídeos hospedadeos localmente</h1>
+   <p>Este vídeo está hospedado no meu próprio servidor.</p>
+   <video controls width="560px" height="300px" poster="image/foto-m.png" autoplay loop>
+      <source src="midia/Digitacao.mkv" type="video/mkv">
+      <source src="midia/digitacao.mp4" type="video/mp4">
+      <!-- Os formatos do arquivo de vídeio que são mp4, m4v, webm, ogg -->
+      <p>Sue navegador não tem compatibilidade com reprodução de vídeo.</p>
+   </video>
+
+   <h1>Inserindo vídeos do YouTube</h1>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/UOS5CP8tzYQ" title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+</body>
+
+</html>
